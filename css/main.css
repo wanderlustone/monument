@@ -4,10 +4,30 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
   background-color: #fff;
-  color: #444;
+  color: #000;
+  grid-template-areas:
+    "projectname projectname projectname"
+    "gmap gmap gmap"
+    "headperiod1 headperiod1 headperiod1"
+	"mon1 mon2 mon3"
+    "mon4 mon4 mon4"
+    "headperiod2 headperiod2 headperiod2"
+	"mon5 mon6 mon7"
+    "mon8 mon9 mon10"
+	"mon11 mon12 mon13"
+    "mon14 mon15 mon16"	
+    "mon17 mon18 mon18"	
+    "headperiod3 headperiod3 headperiod3"
+	"mon19 mon20 mon21"
+    "mon22 mon23 mon24"
+	"mon25 mon26 mon27"
+    "footer footer footer";
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
 }
 
 .box {
@@ -18,87 +38,343 @@ body {
   font-size: 150%;
 }
 
+.projectname {
+  grid-area: projectname;
+  text-align: left;
+}
+
 .gmap {
-  grid-column: 1 / 10;
-  grid-row: 1;
   height: 500px;
   padding: 0px;
+  grid-area: gmap;
 }
 
-.period1 {
-  grid-column: 1 / 10;
-  grid-row: 2;
-  height: 20px;	
-}
-
-.period2 {
-  grid-column: 1 / 10;
-  grid-row: 4;
-  height: 20px;	
-}
-
-.period3 {
-  grid-column: 1 / 10;
-  grid-row: 6;
-  height: 20px;	
+.headperiod1 {
+  grid-area: headperiod1;  
+  border-radius: 5px;
 }
 
 .mon1 {
-  grid-column: 2;
-  grid-row: 3;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon1;  
 }
 
 .mon2 {
-  grid-column: 4;
-  grid-row: 3;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon2;  
 }
 
 .mon3 {
-  grid-column: 6;
-  grid-row: 3;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon3;  
 }
 
 .mon4 {
-  grid-column: 8;
-  grid-row: 3;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon4;  
+}
+
+.headperiod2 {
+  grid-area: headperiod2;  
 }
 
 .mon5 {
-  grid-column: 2;
-  grid-row: 5;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon5;  
 }
 
 .mon6 {
-  grid-column: 4;
-  grid-row: 5;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;
+  grid-area: mon6;  
 }
 
 .mon7 {
-  grid-column: 6;
-  grid-row: 5;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon7;  
 }
 
 .mon8 {
-  grid-column: 8;
-  grid-row: 5;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon8;  
 }
 
 .mon9 {
-  grid-column: 2;
-  grid-row: 7;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon9;  
 }
 
 .mon10 {
-  grid-column: 4;
-  grid-row: 7;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon10;  
 }
 
 .mon11 {
-  grid-column: 6;
-  grid-row: 7;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon11;  
 }
 
 .mon12 {
-  grid-column: 8;
-  grid-row: 7;	
+  width: 400px;
+  height: 500px;
+  justify-self: center;
+  grid-area: mon12;  
 }
+
+.mon13 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon13;  
+}
+
+.mon14 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon14;  
+}
+
+.mon15 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon15;  
+}
+
+.mon16 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon16;  
+}
+
+.mon17 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;
+  grid-area: mon17;  
+}
+
+.mon18 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon18;  
+}
+
+.headperiod3 {
+  grid-area: headperiod3;  
+}
+
+.mon19 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon19;  
+}
+
+.mon20 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;
+  grid-area: mon20;  
+}
+
+.mon21 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon21;  
+}
+
+.mon22 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon22;  
+}
+
+.mon23 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon23;  
+}
+
+.mon24 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon24;  
+}
+
+.mon25 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;
+  grid-area: mon25;  
+}
+
+.mon26 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon26;  
+}
+
+.mon27 {
+  width: 400px;
+  height: 500px;
+  justify-self: center;  
+  grid-area: mon27;  
+}
+
+.footer {
+  grid-area: footer;  
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    grid-template-areas: 
+    "projectname"
+    "gmap"
+    "headperiod1"
+	"mon1" 
+	"mon2" 
+	"mon3"
+    "mon4"
+    "headperiod2"
+	"mon5" 
+	"mon6" 
+	"mon7"
+    "mon8" 
+	"mon9" 
+	"mon10"
+	"mon11" 
+	"mon12" 
+	"mon13"
+    "mon14" 
+	"mon15" 
+	"mon16"	
+    "mon17" 
+	"mon18" 
+	"mon18"	
+    "headperiod3"
+	"mon19" 
+	"mon20" 
+	"mon21"
+    "mon22" 
+	"mon23" 
+	"mon24"
+	"mon25" 
+	"mon26" 
+	"mon27"
+    "footer";
+  }
+}
+
+ h1 {
+    margin: 1em 0 0.5em 0;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative; 
+    font-size: 28px;
+    line-height: 40px;
+    padding: 15px 15px 15px 15%;
+    color: #355681;
+    box-shadow:
+        inset 0 0 0 1px rgba(53,86,129, 0.4),
+        inset 0 0 5px rgba(53,86,129, 0.5),
+        inset -285px 0 35px white;
+    border-radius: 0 10px 0 10px;
+    background: #fff url(../images/projectname4.jpg) no-repeat center left;
+}
+
+ h2 {
+    margin: 1em 0 0.5em 0;
+    font-weight: normal;
+    position: relative;
+    text-shadow: 0 -1px rgba(0,0,0,0.6);
+    font-size: 24px;
+    line-height: 40px;
+    background: #355681;
+    background: rgba(53,86,129, 0.8);
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 0 10px 0 10px;
+    box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+    font-family: 'Muli', sans-serif;
+}
+
+   .modal-window {
+		position: fixed;
+		background-color: rgba(255, 255, 255, 0.25);
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 999;
+		visibility: hidden;
+		opacity: 0;
+		pointer-events: none;
+		transition: all 0.3s;
+		&:target {
+			visibility: visible;
+			opacity: 1;
+			pointer-events: auto;
+		}
+		& > div {
+			width: 400px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			padding: 2em;
+			background: grey;
+		}
+		header {
+			font-weight: bold;
+		}
+		h1 {
+			font-size: 150%;
+			margin: 0 0 15px;
+		}
+	}
+
+	.modal-close {
+		color: #aaa;
+		line-height: 50px;
+		font-size: 80%;
+		position: absolute;
+		right: 0;
+		text-align: center;
+		top: 0;
+		width: 70px;
+		text-decoration: none;
+		&:hover {
+			color: black;
+		}
+	}
