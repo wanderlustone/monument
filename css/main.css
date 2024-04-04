@@ -55,28 +55,29 @@ body {
 }
 
 .mon1 {
-  width: 400px;
+  width: 350px;
   height: 500px;
+  font-size: 16px;
   justify-self: center;  
   grid-area: mon1;  
 }
 
 .mon2 {
-  width: 400px;
+  width: 350px;
   height: 500px;
   justify-self: center;  
   grid-area: mon2;  
 }
 
 .mon3 {
-  width: 400px;
+  width: 350px;
   height: 500px;
   justify-self: center;  
   grid-area: mon3;  
 }
 
 .mon4 {
-  width: 400px;
+  width: 350px;
   height: 500px;
   justify-self: center;  
   grid-area: mon4;  
@@ -87,99 +88,99 @@ body {
 }
 
 .mon5 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon5;  
 }
 
 .mon6 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;
   grid-area: mon6;  
 }
 
 .mon7 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon7;  
 }
 
 .mon8 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon8;  
 }
 
 .mon9 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon9;  
 }
 
 .mon10 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon10;  
 }
 
 .mon11 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon11;  
 }
 
 .mon12 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;
   grid-area: mon12;  
 }
 
 .mon13 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon13;  
 }
 
 .mon14 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon14;  
 }
 
 .mon15 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon15;  
 }
 
 .mon16 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon16;  
 }
 
 .mon17 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;
   grid-area: mon17;  
 }
 
 .mon18 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon18;  
 }
@@ -189,64 +190,64 @@ body {
 }
 
 .mon19 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon19;  
 }
 
 .mon20 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;
   grid-area: mon20;  
 }
 
 .mon21 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon21;  
 }
 
 .mon22 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon22;  
 }
 
 .mon23 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon23;  
 }
 
 .mon24 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon24;  
 }
 
 .mon25 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;
   grid-area: mon25;  
 }
 
 .mon26 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon26;  
 }
 
 .mon27 {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
   justify-self: center;  
   grid-area: mon27;  
 }
@@ -309,7 +310,7 @@ body {
         inset 0 0 5px rgba(53,86,129, 0.5),
         inset -285px 0 35px white;
     border-radius: 0 10px 0 10px;
-    2background: #fff url(../images/projectname4.jpg) no-repeat center left;
+    background: #fff url(../images/projectname4.jpg) no-repeat center left;
 }
 
  h2 {
@@ -347,7 +348,7 @@ body {
 			pointer-events: auto;
 		}
 		& > div {
-			width: 400px;
+			width: 350px;
 			position: absolute;
 			top: 50%;
 			left: 50%;
@@ -378,3 +379,23 @@ body {
 			color: black;
 		}
 	}
+
+		a:link {
+			text-decoration: none; 
+			color: black;
+		} 
+
+		a:visited {
+			text-decoration: none; 
+			color: black;
+		}
+
+		a:active {
+			text-decoration: none; 
+			color: black;
+		}
+
+		a:hover {
+			text-decoration: none; 
+			color: black;
+		} 		
