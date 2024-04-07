@@ -24,7 +24,12 @@ body {
 		"mon19 mon20 mon21"
 		"mon22 mon23 mon24"
 		"mon25 mon26 mon27"
-		"footer footer footer";
+		"route1 route1 route1"
+		"gmap1 gmap1 gmap1"
+		"route2 route2 route2"
+		"gmap2 gmap2 gmap2"
+		"route3 route3 route3"
+		"gmap3 gmap3 gmap3";
 	font-weight: 800;
 	font-size: 14px;
 	text-align: center;
@@ -270,8 +275,34 @@ body {
 	grid-area: mon27;  
 }
 
-.footer {
-	grid-area: footer;  
+.route1 {
+	grid-area: route1;  
+}
+
+.gmap1 {
+	height: 500px;
+	padding: 0px;
+	grid-area: gmap1;
+}
+
+.route2 {
+	grid-area: route2;  
+}
+
+.gmap2 {
+	height: 500px;
+	padding: 0px;
+	grid-area: gmap2;
+}
+
+.route3 {
+	grid-area: route3;  
+}
+
+.gmap3 {
+	height: 500px;
+	padding: 0px;
+	grid-area: gmap3;
 }
 
 @media only screen and (max-width: 800px) {
@@ -310,7 +341,12 @@ body {
 			"mon25"
 			"mon26"
 			"mon27"
-			"footer";
+			"route1"
+			"gmap1"
+			"route2"
+			"gmap2"
+			"route3"
+			"gmap3";
 	}
 }
 
